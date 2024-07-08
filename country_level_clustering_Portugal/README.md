@@ -4,7 +4,11 @@ Welcome to the **Clustering Electricity Usage in Portugal** project! This projec
 
 This repository contains a complete workflow for analyzing electricity usage in Portugal. It covers everything from data preprocessing and visualization to the application of clustering algorithms and interpretation of results. Whether you are an energy analyst, data scientist, or simply interested in the dynamics of electricity consumption in Portugal, this project offers a thorough and insightful exploration of regional usage patterns. Additionally, I have attempted to correlate the identified clusters with the Portuguese industrial sectors and the electricity end-users in each region.
 
-## Input data (References):
+#### Keywords:
+Energy distribution management; Clustering algorithms; Customers segmentation; Electricity consumption; Machine learning; Regional consumption patterns
+
+## Input data:
+#### In the folder: _input_data_
 - Monthly electricity data (2023): [E-REDES](https://e-redes.opendatasoft.com/explore/dataset/02-consumos-faturados-por-codigo-postal-ultimos-5-anos/export/?sort=-date&refine.date=2023) (file: _smart_electricity_meter_portugal_2023.csv_)
 - Portuguese postcode data: [Data Science for Social Good Portugal](https://www.dssg.pt/projects/mapeamento-de-codigos-postais-para-localizacoes-em-portugal/) (file: _cod_post_freg_matched.csv_)
 - Industry sectors per region (2022): [PORDATA](https://www.pordata.pt/municipios/empresas+nao+financeiras+total+e+por+setor+de+atividade+economica-346) (file: _industry_type_portugal_2022.xlsx_)
@@ -12,9 +16,22 @@ This repository contains a complete workflow for analyzing electricity usage in 
 
 ## Methodology:
 FIGURE XXX
-### Table of contents:
+
+### Scripts list:
+#### In the folder: _scripts_
 - Data preprocessing in _R_ (file: _data_preprocessing_electricity_portugal.R_)
 - Data clustering using **K-shape** algorithm in _Python_ (file: _xxx_)
-- Data visualization in _R_ (file: _xxx_)
+- Data visualization in:
+  - _R_ (file: _xxx_) - Plots generation and analysis
+  - _PowerBI_ (file: _xxx_) - Results' summary and maps
 
-  
+## Output data:
+#### In the folder: _output_preprocessed_
+- 
+#### In the folder: _output_clustering_
+-
+
+## References:
+1. Ece Calikus, Sławomir Nowaczyk, Anita Sant'Anna, Henrik Gadd, Sven Werner, "A data-driven approach for discovering heat load patterns in district heating", _Applied Energy_, Volume 252, 2019, 113409, https://doi.org/10.1016/j.apenergy.2019.113409.
+2. 
+
