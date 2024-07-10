@@ -32,6 +32,6 @@ FIGURE XXX
 -
 
 ## References:
-1. Ece Calikus, Sławomir Nowaczyk, Anita Sant'Anna, Henrik Gadd, Sven Werner, "A data-driven approach for discovering heat load patterns in district heating", _Applied Energy_, Volume 252, 2019, 113409, https://doi.org/10.1016/j.apenergy.2019.113409.
-2. 
+1. Ece Calikus, Sławomir Nowaczyk, Anita Sant'Anna, Henrik Gadd, Sven Werner, "A data-driven approach for discovering heat load patterns in district heating", _Applied Energy_, Volume 252, 2019, 113409, https://doi.org/10.1016/j.apenergy.2019.113409
+2. J. Paparrizos and L. Gravano, “k-Shape,” ACM SIGMOD Record, vol. 45, no. 1, pp. 69–76, Jun. 2016, doi: https://doi.org/10.1145/2949741.2949758
 
