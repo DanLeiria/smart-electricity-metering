@@ -14,22 +14,37 @@ Energy distribution management; Clustering algorithms; Customers segmentation; E
 - Industry sectors per region (2022): [PORDATA](https://www.pordata.pt/municipios/empresas+nao+financeiras+total+e+por+setor+de+atividade+economica-346) (file: _industry_type_portugal_2022.xlsx_)
 - Electricity end-users per region (2022): [PORDATA](https://www.pordata.pt/municipios/consumidores+de+energia+eletrica+total+e+por+tipo+de+consumo-18) (file: _elec_energy_by_type_portugal_2022.xlsx_)
 
+Weather data of 2023:
+- Total precipitation in mm: https://www.pordata.pt/portugal/precipitacao+total-1070
+- Maximum air temperature in $\degree\text{C}$: [https://www.pordata.pt/portugal/temperatura+maxima+do+ar-1068](https://www.pordata.pt/portugal/temperatura+maxima+do+ar+no+mes+mais+quente+do+ano+(media+mensal)-1339)
+- Mean air temperature in $\degree\text{C}$: https://www.pordata.pt/portugal/temperatura+media+anual+do+ar-1067
+- Minimum air temperature in $\degree\text{C}$: https://www.pordata.pt/portugal/temperatura+minima+do+ar+no+mes+mais+frio+do+ano+(media+mensal)-1340
+
 ## Methodology:
 FIGURE XXX
 
 ### Scripts list:
 #### In the folder: _scripts_
 - Data preprocessing in _R_ (file: _data_preprocessing_electricity_portugal.R_)
-- Data clustering using **K-shape** algorithm in _Python_ (file: _xxx_)
+- Electricity measurements clustering using **K-shape** algorithm in _Python_ (file: _k_shape_clustering_electricity.py_)
+- Portuguese counties (municipalities) characteristics segmentation using **Self-Organizing Maps (SOM)** in _R_ (file: _county_profile_som_clustering.R_)
 - Data visualization in:
-  - _R_ (file: _xxx_) - Plots generation and analysis
+  - _R_ (file: _data_analysis_clustering_results.R_) - Plots generation and analysis
   - _PowerBI_ (file: _xxx_) - Results' summary and maps
 
 ## Output data:
 #### In the folder: _output_preprocessed_
-- 
+- _county_consumption_normalized_preprocessed.csv:_
+- _county_consumption_preprocessed.csv:_
+
+- _county_industries_normalized_preprocessed.csv:_
+- _county_industries_preprocessed.csv:_
+
+- _electricity_preprocessed.csv:_
+- _postcodes_preprocessed.csv:_
+
 #### In the folder: _output_clustering_
--
+- _clustered_electricity.csv:_ Electricity dataset with the time series and their clusters groups (1-5) and outliers (0)
 
 ## References:
 1. Ece Calikus, Sławomir Nowaczyk, Anita Sant'Anna, Henrik Gadd, Sven Werner, "A data-driven approach for discovering heat load patterns in district heating", _Applied Energy_, Volume 252, 2019, 113409, https://doi.org/10.1016/j.apenergy.2019.113409
